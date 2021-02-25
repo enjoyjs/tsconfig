@@ -1,0 +1,29 @@
+{
+  "name": "@enjoyjs/tsconfig",
+  "version": "0.1.0",
+  "description": "Shared TypeScript config for your projects",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enjoyjs/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "author": "yuseisui <yuseisui@gmail.com> (https://github.com/yuseisui)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enjoyjs/tsconfig/issues"
+  },
+  "homepage": "https://github.com/enjoyjs/tsconfig#readme"
+}
