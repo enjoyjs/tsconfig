@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "commonjs",
+    "target": "ES2020",
+    "module": "ES2020",
     "isolatedModules": true,
     "strict": true,
     "noUnusedLocals": true,
@@ -20,7 +20,7 @@
     "importsNotUsedAsValues": "error",
     "newLine": "lf",
     "noEmitOnError": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": false,
     "useDefineForClassFields": true
   }
 }
