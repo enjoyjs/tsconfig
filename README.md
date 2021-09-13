@@ -22,7 +22,7 @@ npm i -D @enjoyjs/tsconfig
 
 ```json
 {
-  "extends": "@enjoyjs/tsconfig",
+  "extends": "@enjoyjs/tsconfig/tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist"
   }
