@@ -6,9 +6,6 @@
   "files": [
     "tsconfig.json"
   ],
-  "scripts": {
-    "test": "exit 0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enjoyjs/tsconfig.git"
