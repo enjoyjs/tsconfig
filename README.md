@@ -1,6 +1,6 @@
 # tsconfig
 
-Shared TypeScript config for your projects
+Shared TypeScript config for @enjoyjs projects
 
 ## Highlights
 
@@ -22,7 +22,7 @@ npm i -D @enjoyjs/tsconfig
 
 ```json
 {
-  "extends": "@enjoyjs/tsconfig/tsconfig.json",
+  "extends": "@enjoyjs/tsconfig",
   "compilerOptions": {
     "outDir": "dist"
   }
