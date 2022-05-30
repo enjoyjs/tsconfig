@@ -1,7 +1,7 @@
 {
   "name": "@enjoyjs/tsconfig",
   "version": "3.0.1",
-  "description": "Shared TypeScript config for your projects",
+  "description": "Shared TypeScript config for @enjoyjs projects",
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json"
