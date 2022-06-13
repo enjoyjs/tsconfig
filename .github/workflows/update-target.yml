@@ -1,0 +1,26 @@
+name: Update `target`
+
+on:
+  schedule:
+    - cron: "0 0 1 5 *"
+
+jobs:
+  update-target:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update `target`
+        run: sed -i "/\"target\":/s/\(es\)[0-9]\{4,\}/\1$(date -d '2 years ago' +%Y)/i" tsconfig.json
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          add-paths: tsconfig.json
+          commit-message: "feat: update `target`"
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          branch: update-target
+          delete-branch: true
+          title: "feat: update `target`"
+          body: It makes newer ECMAScript features available.
