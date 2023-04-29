@@ -16,6 +16,8 @@ For details of the configuration, see [here](tsconfig.json).
 npm i -D @enjoyjs/tsconfig
 ```
 
+_This config requires TypeScript 5.0 or later._
+
 ## Usage
 
 `tsconfig.json`

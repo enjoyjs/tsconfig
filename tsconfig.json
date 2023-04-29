@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ES2021",
     "module": "Node16",
     "isolatedModules": true,
     "strict": true,
@@ -14,11 +14,9 @@
     "exactOptionalPropertyTypes": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "importsNotUsedAsValues": "error",
-    "newLine": "lf",
+    "verbatimModuleSyntax": true,
     "noEmitOnError": true,
     "resolveJsonModule": false,
     "useDefineForClassFields": true
